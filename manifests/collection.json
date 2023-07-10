@@ -1,0 +1,13 @@
+{
+  "id" : "https://Corrado892.github.io/NewManifest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Corrado892/NewManifest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Corrado892.github.io/NewManifest/manifests/manifest",
+    "label" : "Leonora di Guzman : dramma in musica"
+  } ]
+}
