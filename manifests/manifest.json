@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Corrado892.github.io/NewManifest/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Valencia attractions",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://3989a770-a905-4eb8-949b-e04b16f092bb",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://c1c9571a-95fe-4dba-9791-a3a63d68bfb9",
+      "@type" : "sc:Canvas",
+      "label" : "Banca di Valencia",
+      "height" : 1599,
+      "width" : 899,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b530823a-742d-41e0-8d61-7de6702bbb32",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img_20230707/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img_20230707",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1599,
+          "width" : 899
+        },
+        "on" : "http://c1c9571a-95fe-4dba-9791-a3a63d68bfb9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://96760e38-075e-4e68-9b97-086abcb0288c",
+      "@type" : "sc:Canvas",
+      "label" : "Oceanografico",
+      "height" : 720,
+      "width" : 1080,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b893e729-1120-4f0b-9fc1-c4c931217e51",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/oceanografico-valencia/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/oceanografico-valencia",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 720,
+          "width" : 1080
+        },
+        "on" : "http://96760e38-075e-4e68-9b97-086abcb0288c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
