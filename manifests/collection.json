@@ -9,9 +9,5 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Corrado892.github.io/NewManifest/manifests/manifest",
     "label" : "Leonora di Guzman : dramma in musica"
-  }, {
-    "@type" : "sc:Manifest",
-    "@id" : "https://Corrado892.github.io/NewManifest/manifests/manifest3.json",
-    "label" : "Leonora di Guzman : dramma in musica"
   } ]
 }
